@@ -19,14 +19,14 @@ const Logo = () => {
         opacity: 1,
       })
       .from(outlineLogoRef.current, {
-        drawSVG: 0,
+        drawSVG: 1,
         duration: 20,
       })
 
     gsap.fromTo(
       solidLogoRef.current,
       {
-        opacity: 0,
+        opacity:0,
       },
       {
         opacity: 1,
