@@ -7,3 +7,6 @@ In the project directory, you can run:
 
 ### Deployment
 ### `npm run build` fails to minify
+
+Youtube video :
+https://www.youtube.com/watch?v=bmpI252DmiI&t=2910s
