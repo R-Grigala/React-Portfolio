@@ -67,6 +67,7 @@
                 width: 100%;
                 text-align: center;
                 opacity: 0;
+                -webkit-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
             }
 
@@ -113,12 +114,19 @@
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
+            }
 
-                &:hover svg {
+            &:hover svg {
+                .anchor-icon {
                     color: #ffd700;
                 }
             }
+            
         }
     }
 
+}
+
+.hamburger-icon, .close-icon {
+    display: none;
 }
